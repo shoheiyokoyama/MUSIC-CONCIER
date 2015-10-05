@@ -1,0 +1,6 @@
+framework module NVActivityIndicatorView {
+  umbrella header "Pods-utakata-NVActivityIndicatorView-umbrella.h"
+
+  export *
+  module * { export * }
+}

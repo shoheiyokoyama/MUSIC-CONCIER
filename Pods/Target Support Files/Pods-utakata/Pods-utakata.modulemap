@@ -1,0 +1,6 @@
+framework module Pods_utakata {
+  umbrella header "Pods-utakata-umbrella.h"
+
+  export *
+  module * { export * }
+}

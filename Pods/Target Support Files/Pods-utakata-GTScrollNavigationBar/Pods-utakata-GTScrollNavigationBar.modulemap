@@ -1,0 +1,6 @@
+framework module GTScrollNavigationBar {
+  umbrella header "Pods-utakata-GTScrollNavigationBar-umbrella.h"
+
+  export *
+  module * { export * }
+}

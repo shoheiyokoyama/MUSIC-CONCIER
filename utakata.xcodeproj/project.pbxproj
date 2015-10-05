@@ -1,0 +1,719 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D0FCDD81B9417F600061E00 /* RecommendMusicTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0FCDD61B9417F600061E00 /* RecommendMusicTableViewCell.m */; };
+		6D0FCDD91B9417F600061E00 /* RecommendMusicTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D0FCDD71B9417F600061E00 /* RecommendMusicTableViewCell.xib */; };
+		6D2282871B91FA6300BBC6E9 /* MusicCacheManeger.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D2282861B91FA6300BBC6E9 /* MusicCacheManeger.m */; };
+		6D22828A1B92C2BC00BBC6E9 /* SuggestionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D2282891B92C2BC00BBC6E9 /* SuggestionTableViewCell.m */; };
+		6D22828E1B933E6200BBC6E9 /* PlayStatusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D22828D1B933E6200BBC6E9 /* PlayStatusView.m */; };
+		6D2282921B940D5E00BBC6E9 /* MainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D2282901B940D5E00BBC6E9 /* MainTableViewCell.m */; };
+		6D2282931B940D5E00BBC6E9 /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D2282911B940D5E00BBC6E9 /* MainTableViewCell.xib */; };
+		6D42A3261B95465D00AACC92 /* HighLightMusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D42A3251B95465D00AACC92 /* HighLightMusicViewController.m */; };
+		6D42A3291B96207200AACC92 /* MainExtensionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D42A3281B96207200AACC92 /* MainExtensionTableViewCell.m */; };
+		6D42A32C1B9621F900AACC92 /* ConciergeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D42A32B1B9621F900AACC92 /* ConciergeView.m */; };
+		6D42A3301B97019300AACC92 /* ConciergePlayTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D42A32E1B97019300AACC92 /* ConciergePlayTableViewCell.m */; };
+		6D42A3311B97019300AACC92 /* ConciergePlayTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D42A32F1B97019300AACC92 /* ConciergePlayTableViewCell.xib */; };
+		6D42A3341B971CC300AACC92 /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D42A3331B971CC300AACC92 /* ActivityIndicatorView.swift */; };
+		6DAE21631B8F1E45001DCC4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DAE21621B8F1E45001DCC4E /* main.m */; };
+		6DAE21661B8F1E45001DCC4E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DAE21651B8F1E45001DCC4E /* AppDelegate.m */; };
+		6DAE216C1B8F1E45001DCC4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DAE216A1B8F1E45001DCC4E /* Main.storyboard */; };
+		6DAE216E1B8F1E45001DCC4E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DAE216D1B8F1E45001DCC4E /* Images.xcassets */; };
+		6DAE21711B8F1E45001DCC4E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DAE216F1B8F1E45001DCC4E /* LaunchScreen.xib */; };
+		6DAE217D1B8F1E45001DCC4E /* utakataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DAE217C1B8F1E45001DCC4E /* utakataTests.m */; };
+		6DAE21881B900474001DCC4E /* MusicItems.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DAE21871B900474001DCC4E /* MusicItems.m */; };
+		6DAE218B1B900757001DCC4E /* MusicServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DAE218A1B900757001DCC4E /* MusicServiceManager.m */; };
+		6DAE21931B905AB2001DCC4E /* MusicControllView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DAE21921B905AB2001DCC4E /* MusicControllView.m */; };
+		6DAE21971B907DCC001DCC4E /* MusicInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DAE21961B907DCC001DCC4E /* MusicInfoView.m */; };
+		6DAE219A1B916E86001DCC4E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DAE21991B916E86001DCC4E /* MainViewController.m */; };
+		6DAE219D1B91753D001DCC4E /* SuggestionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DAE219C1B91753D001DCC4E /* SuggestionView.m */; };
+		6DAE21A01B918B7D001DCC4E /* PlayAlbumSongViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DAE219F1B918B7D001DCC4E /* PlayAlbumSongViewController.m */; };
+		6DAE21A51B919358001DCC4E /* PlayMusicViewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DAE21A41B919358001DCC4E /* PlayMusicViewTableViewCell.m */; };
+		D3A3E9B91B903480009C272E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3A3E9B81B903480009C272E /* AVFoundation.framework */; };
+		D3A3E9C41B9038E0009C272E /* SampleMusic.json in Resources */ = {isa = PBXBuildFile; fileRef = D3A3E9BC1B9038E0009C272E /* SampleMusic.json */; };
+		D3A3E9CA1B9038E0009C272E /* 台風.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3A3E9C31B9038E0009C272E /* 台風.mp3 */; };
+		D7DD06DC919172916E31DD20 /* Pods_utakata.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48422C13EC0E51D2CA84EADB /* Pods_utakata.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6DAE21771B8F1E45001DCC4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DAE21551B8F1E45001DCC4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DAE215C1B8F1E45001DCC4E;
+			remoteInfo = utakata;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		35AAE339BE0C0BEFC0D28892 /* Pods-utakata.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-utakata.release.xcconfig"; path = "Pods/Target Support Files/Pods-utakata/Pods-utakata.release.xcconfig"; sourceTree = "<group>"; };
+		468C06B59386B1D1474E128D /* Pods-utakata.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-utakata.debug.xcconfig"; path = "Pods/Target Support Files/Pods-utakata/Pods-utakata.debug.xcconfig"; sourceTree = "<group>"; };
+		48422C13EC0E51D2CA84EADB /* Pods_utakata.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_utakata.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D0FCDD51B9417F600061E00 /* RecommendMusicTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecommendMusicTableViewCell.h; sourceTree = "<group>"; };
+		6D0FCDD61B9417F600061E00 /* RecommendMusicTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecommendMusicTableViewCell.m; sourceTree = "<group>"; };
+		6D0FCDD71B9417F600061E00 /* RecommendMusicTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecommendMusicTableViewCell.xib; sourceTree = "<group>"; };
+		6D2282851B91FA6300BBC6E9 /* MusicCacheManeger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicCacheManeger.h; sourceTree = "<group>"; };
+		6D2282861B91FA6300BBC6E9 /* MusicCacheManeger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicCacheManeger.m; sourceTree = "<group>"; };
+		6D2282881B92C2BC00BBC6E9 /* SuggestionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuggestionTableViewCell.h; sourceTree = "<group>"; };
+		6D2282891B92C2BC00BBC6E9 /* SuggestionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuggestionTableViewCell.m; sourceTree = "<group>"; };
+		6D22828C1B933E6200BBC6E9 /* PlayStatusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayStatusView.h; sourceTree = "<group>"; };
+		6D22828D1B933E6200BBC6E9 /* PlayStatusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayStatusView.m; sourceTree = "<group>"; };
+		6D22828F1B940D5E00BBC6E9 /* MainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewCell.h; sourceTree = "<group>"; };
+		6D2282901B940D5E00BBC6E9 /* MainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewCell.m; sourceTree = "<group>"; };
+		6D2282911B940D5E00BBC6E9 /* MainTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
+		6D42A3241B95465D00AACC92 /* HighLightMusicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighLightMusicViewController.h; sourceTree = "<group>"; };
+		6D42A3251B95465D00AACC92 /* HighLightMusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighLightMusicViewController.m; sourceTree = "<group>"; };
+		6D42A3271B96207200AACC92 /* MainExtensionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainExtensionTableViewCell.h; sourceTree = "<group>"; };
+		6D42A3281B96207200AACC92 /* MainExtensionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainExtensionTableViewCell.m; sourceTree = "<group>"; };
+		6D42A32A1B9621F900AACC92 /* ConciergeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConciergeView.h; sourceTree = "<group>"; };
+		6D42A32B1B9621F900AACC92 /* ConciergeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConciergeView.m; sourceTree = "<group>"; };
+		6D42A32D1B97019300AACC92 /* ConciergePlayTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConciergePlayTableViewCell.h; sourceTree = "<group>"; };
+		6D42A32E1B97019300AACC92 /* ConciergePlayTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConciergePlayTableViewCell.m; sourceTree = "<group>"; };
+		6D42A32F1B97019300AACC92 /* ConciergePlayTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConciergePlayTableViewCell.xib; sourceTree = "<group>"; };
+		6D42A3321B971CC300AACC92 /* utakata-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "utakata-Bridging-Header.h"; sourceTree = "<group>"; };
+		6D42A3331B971CC300AACC92 /* ActivityIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorView.swift; sourceTree = "<group>"; };
+		6DAE215D1B8F1E45001DCC4E /* utakata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = utakata.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DAE21611B8F1E45001DCC4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DAE21621B8F1E45001DCC4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6DAE21641B8F1E45001DCC4E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6DAE21651B8F1E45001DCC4E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6DAE216B1B8F1E45001DCC4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6DAE216D1B8F1E45001DCC4E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6DAE21701B8F1E45001DCC4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6DAE21761B8F1E45001DCC4E /* utakataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = utakataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DAE217B1B8F1E45001DCC4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DAE217C1B8F1E45001DCC4E /* utakataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = utakataTests.m; sourceTree = "<group>"; };
+		6DAE21861B900474001DCC4E /* MusicItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicItems.h; sourceTree = "<group>"; };
+		6DAE21871B900474001DCC4E /* MusicItems.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicItems.m; sourceTree = "<group>"; };
+		6DAE21891B900757001DCC4E /* MusicServiceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicServiceManager.h; sourceTree = "<group>"; };
+		6DAE218A1B900757001DCC4E /* MusicServiceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicServiceManager.m; sourceTree = "<group>"; };
+		6DAE21911B905AB2001DCC4E /* MusicControllView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicControllView.h; sourceTree = "<group>"; };
+		6DAE21921B905AB2001DCC4E /* MusicControllView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicControllView.m; sourceTree = "<group>"; };
+		6DAE21951B907DCC001DCC4E /* MusicInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicInfoView.h; sourceTree = "<group>"; };
+		6DAE21961B907DCC001DCC4E /* MusicInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicInfoView.m; sourceTree = "<group>"; };
+		6DAE21981B916E86001DCC4E /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		6DAE21991B916E86001DCC4E /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		6DAE219B1B91753D001DCC4E /* SuggestionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuggestionView.h; sourceTree = "<group>"; };
+		6DAE219C1B91753D001DCC4E /* SuggestionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuggestionView.m; sourceTree = "<group>"; };
+		6DAE219E1B918B7D001DCC4E /* PlayAlbumSongViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayAlbumSongViewController.h; sourceTree = "<group>"; };
+		6DAE219F1B918B7D001DCC4E /* PlayAlbumSongViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayAlbumSongViewController.m; sourceTree = "<group>"; };
+		6DAE21A31B919358001DCC4E /* PlayMusicViewTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayMusicViewTableViewCell.h; sourceTree = "<group>"; };
+		6DAE21A41B919358001DCC4E /* PlayMusicViewTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayMusicViewTableViewCell.m; sourceTree = "<group>"; };
+		D3A3E9B61B9033DB009C272E /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		D3A3E9B81B903480009C272E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D3A3E9BC1B9038E0009C272E /* SampleMusic.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SampleMusic.json; sourceTree = "<group>"; };
+		D3A3E9C31B9038E0009C272E /* 台風.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "台風.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DAE215A1B8F1E45001DCC4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3A3E9B91B903480009C272E /* AVFoundation.framework in Frameworks */,
+				D7DD06DC919172916E31DD20 /* Pods_utakata.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DAE21731B8F1E45001DCC4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D2282841B91FA2C00BBC6E9 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				6DAE21891B900757001DCC4E /* MusicServiceManager.h */,
+				6DAE218A1B900757001DCC4E /* MusicServiceManager.m */,
+				6D2282851B91FA6300BBC6E9 /* MusicCacheManeger.h */,
+				6D2282861B91FA6300BBC6E9 /* MusicCacheManeger.m */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		6D22828B1B92C91E00BBC6E9 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				6D42A3271B96207200AACC92 /* MainExtensionTableViewCell.h */,
+				6D42A3281B96207200AACC92 /* MainExtensionTableViewCell.m */,
+				6D0FCDD51B9417F600061E00 /* RecommendMusicTableViewCell.h */,
+				6D0FCDD61B9417F600061E00 /* RecommendMusicTableViewCell.m */,
+				6D0FCDD71B9417F600061E00 /* RecommendMusicTableViewCell.xib */,
+				6D22828F1B940D5E00BBC6E9 /* MainTableViewCell.h */,
+				6D2282901B940D5E00BBC6E9 /* MainTableViewCell.m */,
+				6D2282911B940D5E00BBC6E9 /* MainTableViewCell.xib */,
+				6D2282881B92C2BC00BBC6E9 /* SuggestionTableViewCell.h */,
+				6D2282891B92C2BC00BBC6E9 /* SuggestionTableViewCell.m */,
+				6DAE21A31B919358001DCC4E /* PlayMusicViewTableViewCell.h */,
+				6DAE21A41B919358001DCC4E /* PlayMusicViewTableViewCell.m */,
+			);
+			name = TableViewCell;
+			sourceTree = "<group>";
+		};
+		6DAE21541B8F1E45001DCC4E = {
+			isa = PBXGroup;
+			children = (
+				D3A3E9BA1B9038E0009C272E /* assets */,
+				6DAE215F1B8F1E45001DCC4E /* utakata */,
+				6DAE21791B8F1E45001DCC4E /* utakataTests */,
+				6DAE215E1B8F1E45001DCC4E /* Products */,
+				806502823B2EF8A041C99C52 /* Pods */,
+				8F12400BF05772D119CFD70E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6DAE215E1B8F1E45001DCC4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DAE215D1B8F1E45001DCC4E /* utakata.app */,
+				6DAE21761B8F1E45001DCC4E /* utakataTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DAE215F1B8F1E45001DCC4E /* utakata */ = {
+			isa = PBXGroup;
+			children = (
+				6DAE218D1B905050001DCC4E /* models */,
+				6DAE21641B8F1E45001DCC4E /* AppDelegate.h */,
+				6DAE21651B8F1E45001DCC4E /* AppDelegate.m */,
+				6DAE21941B905ABF001DCC4E /* Views */,
+				6DAE218C1B905014001DCC4E /* Controllers */,
+				6DAE216A1B8F1E45001DCC4E /* Main.storyboard */,
+				6DAE216D1B8F1E45001DCC4E /* Images.xcassets */,
+				6DAE216F1B8F1E45001DCC4E /* LaunchScreen.xib */,
+				6DAE21601B8F1E45001DCC4E /* Supporting Files */,
+			);
+			path = utakata;
+			sourceTree = "<group>";
+		};
+		6DAE21601B8F1E45001DCC4E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6DAE21611B8F1E45001DCC4E /* Info.plist */,
+				6DAE21621B8F1E45001DCC4E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6DAE21791B8F1E45001DCC4E /* utakataTests */ = {
+			isa = PBXGroup;
+			children = (
+				6DAE217C1B8F1E45001DCC4E /* utakataTests.m */,
+				6DAE217A1B8F1E45001DCC4E /* Supporting Files */,
+			);
+			path = utakataTests;
+			sourceTree = "<group>";
+		};
+		6DAE217A1B8F1E45001DCC4E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6DAE217B1B8F1E45001DCC4E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6DAE218C1B905014001DCC4E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6DAE219E1B918B7D001DCC4E /* PlayAlbumSongViewController.h */,
+				6DAE219F1B918B7D001DCC4E /* PlayAlbumSongViewController.m */,
+				6DAE21981B916E86001DCC4E /* MainViewController.h */,
+				6DAE21991B916E86001DCC4E /* MainViewController.m */,
+				6D42A3241B95465D00AACC92 /* HighLightMusicViewController.h */,
+				6D42A3251B95465D00AACC92 /* HighLightMusicViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		6DAE218D1B905050001DCC4E /* models */ = {
+			isa = PBXGroup;
+			children = (
+				6DAE21861B900474001DCC4E /* MusicItems.h */,
+				6DAE21871B900474001DCC4E /* MusicItems.m */,
+				6D2282841B91FA2C00BBC6E9 /* Service */,
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
+		6DAE21941B905ABF001DCC4E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6D42A3331B971CC300AACC92 /* ActivityIndicatorView.swift */,
+				6D42A32D1B97019300AACC92 /* ConciergePlayTableViewCell.h */,
+				6D42A32E1B97019300AACC92 /* ConciergePlayTableViewCell.m */,
+				6D42A32F1B97019300AACC92 /* ConciergePlayTableViewCell.xib */,
+				6D42A32A1B9621F900AACC92 /* ConciergeView.h */,
+				6D42A32B1B9621F900AACC92 /* ConciergeView.m */,
+				6D22828B1B92C91E00BBC6E9 /* TableViewCell */,
+				6D22828C1B933E6200BBC6E9 /* PlayStatusView.h */,
+				6D22828D1B933E6200BBC6E9 /* PlayStatusView.m */,
+				6DAE219B1B91753D001DCC4E /* SuggestionView.h */,
+				6DAE219C1B91753D001DCC4E /* SuggestionView.m */,
+				6DAE21951B907DCC001DCC4E /* MusicInfoView.h */,
+				6DAE21961B907DCC001DCC4E /* MusicInfoView.m */,
+				6DAE21911B905AB2001DCC4E /* MusicControllView.h */,
+				6DAE21921B905AB2001DCC4E /* MusicControllView.m */,
+				6D42A3321B971CC300AACC92 /* utakata-Bridging-Header.h */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		806502823B2EF8A041C99C52 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				468C06B59386B1D1474E128D /* Pods-utakata.debug.xcconfig */,
+				35AAE339BE0C0BEFC0D28892 /* Pods-utakata.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8F12400BF05772D119CFD70E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3A3E9B81B903480009C272E /* AVFoundation.framework */,
+				D3A3E9B61B9033DB009C272E /* MediaPlayer.framework */,
+				48422C13EC0E51D2CA84EADB /* Pods_utakata.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3A3E9BA1B9038E0009C272E /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				D3A3E9BB1B9038E0009C272E /*  json */,
+				D3A3E9BD1B9038E0009C272E /* music */,
+			);
+			name = assets;
+			path = utakata/assets;
+			sourceTree = "<group>";
+		};
+		D3A3E9BB1B9038E0009C272E /*  json */ = {
+			isa = PBXGroup;
+			children = (
+				D3A3E9BC1B9038E0009C272E /* SampleMusic.json */,
+			);
+			path = " json";
+			sourceTree = "<group>";
+		};
+		D3A3E9BD1B9038E0009C272E /* music */ = {
+			isa = PBXGroup;
+			children = (
+				D3A3E9C31B9038E0009C272E /* 台風.mp3 */,
+			);
+			path = music;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6DAE215C1B8F1E45001DCC4E /* utakata */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DAE21801B8F1E45001DCC4E /* Build configuration list for PBXNativeTarget "utakata" */;
+			buildPhases = (
+				4E5E13028AC3B84B8C3FF586 /* Check Pods Manifest.lock */,
+				6DAE21591B8F1E45001DCC4E /* Sources */,
+				6DAE215A1B8F1E45001DCC4E /* Frameworks */,
+				6DAE215B1B8F1E45001DCC4E /* Resources */,
+				5C52E63C52B72FC69B61C9AF /* Copy Pods Resources */,
+				96AB24B15635E516EBBB8CDF /* Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = utakata;
+			productName = utakata;
+			productReference = 6DAE215D1B8F1E45001DCC4E /* utakata.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6DAE21751B8F1E45001DCC4E /* utakataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DAE21831B8F1E45001DCC4E /* Build configuration list for PBXNativeTarget "utakataTests" */;
+			buildPhases = (
+				6DAE21721B8F1E45001DCC4E /* Sources */,
+				6DAE21731B8F1E45001DCC4E /* Frameworks */,
+				6DAE21741B8F1E45001DCC4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DAE21781B8F1E45001DCC4E /* PBXTargetDependency */,
+			);
+			name = utakataTests;
+			productName = utakataTests;
+			productReference = 6DAE21761B8F1E45001DCC4E /* utakataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DAE21551B8F1E45001DCC4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Shohei;
+				TargetAttributes = {
+					6DAE215C1B8F1E45001DCC4E = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = S2QVPRJ4JH;
+					};
+					6DAE21751B8F1E45001DCC4E = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 6DAE215C1B8F1E45001DCC4E;
+					};
+				};
+			};
+			buildConfigurationList = 6DAE21581B8F1E45001DCC4E /* Build configuration list for PBXProject "utakata" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6DAE21541B8F1E45001DCC4E;
+			productRefGroup = 6DAE215E1B8F1E45001DCC4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DAE215C1B8F1E45001DCC4E /* utakata */,
+				6DAE21751B8F1E45001DCC4E /* utakataTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DAE215B1B8F1E45001DCC4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D2282931B940D5E00BBC6E9 /* MainTableViewCell.xib in Resources */,
+				6D0FCDD91B9417F600061E00 /* RecommendMusicTableViewCell.xib in Resources */,
+				D3A3E9CA1B9038E0009C272E /* 台風.mp3 in Resources */,
+				D3A3E9C41B9038E0009C272E /* SampleMusic.json in Resources */,
+				6DAE216C1B8F1E45001DCC4E /* Main.storyboard in Resources */,
+				6DAE21711B8F1E45001DCC4E /* LaunchScreen.xib in Resources */,
+				6DAE216E1B8F1E45001DCC4E /* Images.xcassets in Resources */,
+				6D42A3311B97019300AACC92 /* ConciergePlayTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DAE21741B8F1E45001DCC4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4E5E13028AC3B84B8C3FF586 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5C52E63C52B72FC69B61C9AF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-utakata/Pods-utakata-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96AB24B15635E516EBBB8CDF /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-utakata/Pods-utakata-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DAE21591B8F1E45001DCC4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DAE219A1B916E86001DCC4E /* MainViewController.m in Sources */,
+				6D42A3261B95465D00AACC92 /* HighLightMusicViewController.m in Sources */,
+				6D42A3301B97019300AACC92 /* ConciergePlayTableViewCell.m in Sources */,
+				6D42A32C1B9621F900AACC92 /* ConciergeView.m in Sources */,
+				6DAE21A01B918B7D001DCC4E /* PlayAlbumSongViewController.m in Sources */,
+				6D22828E1B933E6200BBC6E9 /* PlayStatusView.m in Sources */,
+				6D2282871B91FA6300BBC6E9 /* MusicCacheManeger.m in Sources */,
+				6DAE21971B907DCC001DCC4E /* MusicInfoView.m in Sources */,
+				6D42A3291B96207200AACC92 /* MainExtensionTableViewCell.m in Sources */,
+				6DAE21931B905AB2001DCC4E /* MusicControllView.m in Sources */,
+				6D0FCDD81B9417F600061E00 /* RecommendMusicTableViewCell.m in Sources */,
+				6D42A3341B971CC300AACC92 /* ActivityIndicatorView.swift in Sources */,
+				6DAE21A51B919358001DCC4E /* PlayMusicViewTableViewCell.m in Sources */,
+				6DAE21661B8F1E45001DCC4E /* AppDelegate.m in Sources */,
+				6D2282921B940D5E00BBC6E9 /* MainTableViewCell.m in Sources */,
+				6DAE219D1B91753D001DCC4E /* SuggestionView.m in Sources */,
+				6DAE218B1B900757001DCC4E /* MusicServiceManager.m in Sources */,
+				6DAE21631B8F1E45001DCC4E /* main.m in Sources */,
+				6D22828A1B92C2BC00BBC6E9 /* SuggestionTableViewCell.m in Sources */,
+				6DAE21881B900474001DCC4E /* MusicItems.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DAE21721B8F1E45001DCC4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DAE217D1B8F1E45001DCC4E /* utakataTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6DAE21781B8F1E45001DCC4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DAE215C1B8F1E45001DCC4E /* utakata */;
+			targetProxy = 6DAE21771B8F1E45001DCC4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6DAE216A1B8F1E45001DCC4E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DAE216B1B8F1E45001DCC4E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6DAE216F1B8F1E45001DCC4E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DAE21701B8F1E45001DCC4E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6DAE217E1B8F1E45001DCC4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6DAE217F1B8F1E45001DCC4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6DAE21811B8F1E45001DCC4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 468C06B59386B1D1474E128D /* Pods-utakata.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = utakata/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "utakata/utakata-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6DAE21821B8F1E45001DCC4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35AAE339BE0C0BEFC0D28892 /* Pods-utakata.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = utakata/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "utakata/utakata-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		6DAE21841B8F1E45001DCC4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = utakataTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/utakata.app/utakata";
+			};
+			name = Debug;
+		};
+		6DAE21851B8F1E45001DCC4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = utakataTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/utakata.app/utakata";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6DAE21581B8F1E45001DCC4E /* Build configuration list for PBXProject "utakata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DAE217E1B8F1E45001DCC4E /* Debug */,
+				6DAE217F1B8F1E45001DCC4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DAE21801B8F1E45001DCC4E /* Build configuration list for PBXNativeTarget "utakata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DAE21811B8F1E45001DCC4E /* Debug */,
+				6DAE21821B8F1E45001DCC4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DAE21831B8F1E45001DCC4E /* Build configuration list for PBXNativeTarget "utakataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DAE21841B8F1E45001DCC4E /* Debug */,
+				6DAE21851B8F1E45001DCC4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6DAE21551B8F1E45001DCC4E /* Project object */;
+}
